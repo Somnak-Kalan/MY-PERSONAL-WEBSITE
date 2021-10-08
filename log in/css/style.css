@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.header{
+    display: flex;
+    background: rgb(146, 146, 146);
+}
+.logo{
+    background:url(../img/1.jpg);
+    background-size: cover;
+    padding: 60px;
+}
+/* .register */
+.s-l{
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.sign-search{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin:0px 90px;
+    margin-top: 25px;
+   
+}
+.search{
+    padding: 10px;
+    border-radius: 10px;
+    border:solid 1px;
+    border: none;
+}
+input[type="search"]{
+    padding: 10px;
+    width: 70%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+input[type="submit"]{
+    padding: 10px;
+    width:100px;
+    border-radius: 10px;
+    border: 1px solid;
+
+}
+/* menu */
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pic{
+    margin: 5px 0px;
+    width: 9.8%;
+    background: #000000;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+.menu ul li{
+    margin-left: 45px;
+    padding: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding: 10px;
+}
+.menu ul li:hover ,.menu a:hover{
+    background: rgb(68, 68, 69);
+    padding: 10px;
+    color: white;
+
+}
+/* slide */
+.slide{
+    background: rgb(158, 147, 147);
+    height: 45vh;
+    /* clip-path: polygon(50% 0%, 0% 100%, 100% 100%); */
+}
+/* ::content */
+/* resiter */
+.content-1{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-1{
+    padding: 50px 50px 100px 50px;
+    margin: 10px;
+    height: 100%;
+    /* border: solid 1px ; */
+    box-sizing: 0 0 10px;
+    width: 60%;
+    border-radius: 5px;
+    background:linear-gradient(to right,rgb(216, 187, 187) , rgb(204, 176, 51));
+}
+.icon-1{
+    padding: 10px;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    color: rgb(90, 67, 67);
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+input[type="password"]{
+    width: 100%;
+}
+input[type="email"]{
+    width: 100%;
+}
+/* input[type="password"], */
+/* input[type="number"], */
+/* input[type="url"], */
+/* select{ */
+    /* width: 49.7%; */
+/*      */
+/* } */
+input[type="password"],
+input[type="email"]
+/* input[type="text"], */
+/* input[type="number"], */
+/* input[type="url"], */
+/* select */
+{
+    padding: 10px;
+    margin-top:20px;
+    outline: none;
+    border:none;
+    border-radius: 2px;
+}
+.forgot{
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+.newAccount{
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    padding: 20px;
+}
+.social{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 25px;
+}
+.icon a{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 50px;
+    background: blue;
+}
+label{
+    font-weight: bold;
+}
+/* comfirm */
+/* .comfirm{ */
+    /* margin-top: 5px; */
+    /* border: solid 1px; */
+    /* text-align: center; */
+    /* padding:30px; */
+    /* border-radius: 2px; */
+/* } */
+.submit{
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.button{
+    background: blue;
+    color: white;
+    padding: 10px;
+    width: 45%;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+/* content-2 */
+/* footer */
+.footer{
+    height: 50vh;
+    background: rgb(58, 13, 88);
+}
+/* .social-2{ */
+    /* display: flex; */
+/* } */
+.social-2{
+    color: white;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+.icon-2{
+    margin-top: 20px;
+    color: rgb(55, 7, 214);
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(133, 123, 123);
+}
+footer{
+    background: #000;
+    padding: 10px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 50px;
+    text-transform: uppercase;
+}
