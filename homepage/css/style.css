@@ -8,7 +8,7 @@ body{
     background: rgb(146, 146, 146);
 }
 .logo{
-    background:url(../img/1.jpg);
+    background:url(../img/somnak.png);
     background-size: cover;
     padding: 60px;
 }
@@ -20,22 +20,26 @@ body{
     margin-top: 25px;
    
 }
+.search-bar{
+    width: 80%;
+}
 .search{
     padding: 10px;
     border-radius: 10px;
     border:solid 1px;
     border: none;
+    width: 10%;
 }
 input[type="search"]{
     padding: 10px;
-    width: 70%;
+    width: 50%;
     border-radius: 10px;
     border: none;
     outline: none;
 }
 input[type="submit"]{
     padding: 10px;
-    width:100px;
+    width:70%;
     border-radius: 10px;
     border: 1px solid;
 
@@ -44,20 +48,22 @@ input[type="submit"]{
 .s-l{
     background: rgb(255, 255, 255);
     padding: 10px;
-    color: black;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     text-decoration: none;
     border-radius: 10px;
+    font-weight: bold;
+    background: rgb(0, 81, 255);
 }
 /* menu */
 .nav{
     display: flex;
     justify-content: space-evenly;
 }
-.pic{
-    margin: 5px 0px;
-    width: 9.8%;
-    background: #000000;
+.pic img{
+    width: 90px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 .menu{
     width: 100%;
@@ -86,8 +92,29 @@ input[type="submit"]{
 }
 /* slide */
 .slide{
-    background: rgb(158, 147, 147);
-    height: 45vh;
+    background: url(../img/p3.jpg) center;
+    background-size:cover;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    word-wrap: keep-all;
+    padding: 100px;
+    /* max-width: 100%; */
+    /* min-width: 25%; */
+    /* min-height: 10%; */
+}
+.slide img{
+    position: absolute;
+    width: 15%;
+    /* height: 35vh; */
+    border-radius: 100px;
+    max-width: 100%;
+}
+.slide p{
+    word-wrap: keep-all;
+    color: white;
+}
+.slide strong{
+    color:rgb(22, 7, 231);
 }
 /* ==========<content>=========== */
 .content{   
@@ -100,10 +127,15 @@ input[type="submit"]{
     margin: 10px;
 }
 .grid-menu-cv{
-    background: blue;
-    /* height: 20vh; */
-    padding: 10px;
+    background: rgb(143, 143, 143);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 2px;
 }
+/* .grid-menu-cv:hover{ */
+    /* border: solid 1px; */
+    /* padding: 15px; */
+/* } */
 /* grid-middle */
 .grid-middle{
     display: grid;
@@ -114,15 +146,26 @@ input[type="submit"]{
 .middle{
     border: solid 1px;
     /* height: 15vh; */
-
 }
 .btn{
-    /* text-align: center; */
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
+
 }
+.button-cv{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: #172774;
+    color: white;
+    font-weight: bold;
+}
+.button-cv:hover{
+    background: #FF0075;
+}
+/* cv class btn */
 .middle-2{
     /* background: #000; */
     border-bottom: solid 2px ;
@@ -154,21 +197,45 @@ input[type="submit"]{
 .below{
     word-break: break-all;
 }
-/* ======= */
-.highlive{
-    margin-top: 10px;
-    padding: 35px;
-    background: rgb(112, 108, 108);
-    color: white;
+/* .gift */
+.gift-1{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
 }
-.mbd{
-    display: flex;
+.gift{
+    background: blue;
+    padding: 20px;
 }
+/* =======footer */
 .footer{
     height: 50vh;
-    background: red;
+    background: rgb(58, 13, 88);
+}
+/* .social-2{ */
+    /* display: flex; */
+/* } */
+.social-2{
+    color: white;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+.icon-2{
+    margin-top: 20px;
+    color: rgb(55, 7, 214);
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(133, 123, 123);
 }
 footer{
     background: #000;
-    height: 5vh;
+    padding: 10px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 50px;
+    text-transform: uppercase;
 }
