@@ -12,6 +12,9 @@ body{
     background-size: cover;
     padding: 60px;
 }
+.search-bar{
+    width:70%;
+}
 .sign-search{
     display: flex;
     justify-content: space-between;
@@ -22,13 +25,16 @@ body{
 .search{
     padding: 10px;
     border-radius: 10px;
-    border:solid 1px;
+    width: 20%;
+    outline: none;
+    border: none;
+    background: linear-gradient(to right,pink,brown);
 }
 input[type="search"]{
     padding: 10px;
     width: 70%;
     border-radius: 10px;
-    border: solid 1px;
+    border: none;
     outline: none;
 }
 input[type="submit"]{
@@ -45,6 +51,9 @@ input[type="submit"]{
     text-transform: uppercase;
     text-decoration: none;
     border-radius: 10px;
+    background: blue;
+    color: white;
+    border: none;
 }
 
 /* menu */
@@ -84,8 +93,26 @@ input[type="submit"]{
 }
 /* slide */
 .slide{
-    background: rgb(158, 147, 147);
+    background:url(../img/p-2.jpg);
     height: 45vh;
+    background-size: cover;
+    background-position: center center;
+}
+.slide-text-1{
+    font-size:3rem;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    border-bottom: solid 5px;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.slide-text-2{
+    font-size: 3rem;
+    color: white;
+}
+.slide-1-box{
+    text-align: center;
 }
 /* ===========<content>============= */
 .grid-content-1{
@@ -93,15 +120,19 @@ input[type="submit"]{
     grid-template-columns: repeat(5,1fr);
     gap:5px;
 }
-.main{
+.main-1{
     background: green;
-    height:25vh;
-    margin: 10px;
+    margin: 2rem;
+    text-align: center;
+    word-break: break-all;
+}
+.main-1 p{
+    padding: 10px;
+    color: white;
 }
 .main-1{
     grid-column-start: 2;
     grid-column-end: 5;
-    height: 45vh;
 }
 .main-3{
     grid-column-start: 1;

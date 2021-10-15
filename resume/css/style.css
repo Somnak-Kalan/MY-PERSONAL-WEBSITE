@@ -5,7 +5,7 @@ body{
     
 }
 .container{
-    border: solid;
+    border: solid 1px;
     width: 800px;
     margin: auto;
 }
@@ -14,28 +14,21 @@ body{
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(6,1fr);
-    /* gap: 10px; */
-    /* padding: 20px; */
 }
 .header-cv .logo{
     padding: 30px;
     padding-bottom: 120px;
-    border: solid 1px;
-    /* background: #000; */
+    border: none;
+    background:url(../image/somnak.png);
+    background-size: cover;
     grid-column-start: 1;
     grid-column-end: 2;
-    /* grid-row-start: 1; */
-    /* grid-row-end: 5; */
-    border: solid 1px;
-    /* width: 20%; */
-    /* height: 20vh; */
-    /* margin-left: 25%; */
 }
 .header-cv .co-name{
-    border: solid 1px;
-    /* background: #000; */
+    background: rgb(98, 93, 93);
     grid-column-start: 3;
     grid-column-end: 7;
+    color: white;
 }
 .header-cv .name{
     display: flex;
@@ -45,40 +38,33 @@ body{
 /* ==============<>=============== */
 /* content */
 .content{
-    margin-top: px;
-    /* height:700px; */
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
+    display: flex;
 }
-h3{
+h3,h4{
     text-transform: uppercase;
+    color: white;
+}
+h4{
+    background: rgb(15, 0, 151);
+    color: white;
+    border-radius: 1rem 0rem ;
+    padding: 10px;
 }
 strong{
     text-transform: capitalize;
 }
 .side-left{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    background: rgba(4, 28, 109, 0.692);
-    /* border: solid; */
-    /* word-break: break-all; */
-    padding: 20px;
+    background: rgb(49, 44, 44);
+    padding: 25px;
+    width: 150%;
 }
 .side-right{
-    grid-column-start: 3;
-    grid-column-end: 7;
-    /* border: solid; */
     background: rgb(255, 255, 255);
     padding: 20px;
 }
 /* .skill */
 .checked{
     color:yellow;
-}
-.border-1{
-    border: solid 2px;
-    background: #000;
-    padding: 1px;
 }
 /* icon */
 .icon-1{

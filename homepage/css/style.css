@@ -103,14 +103,11 @@ input[type="submit"]{
     /* min-height: 10%; */
 }
 .slide img{
-    position: absolute;
-    width: 15%;
+    width: 90%;
     /* height: 35vh; */
     border-radius: 100px;
-    max-width: 100%;
 }
 .slide p{
-    word-wrap: keep-all;
     color: white;
 }
 .slide strong{
@@ -132,11 +129,6 @@ input[type="submit"]{
     border-radius: 10px;
     box-shadow: 0px 0px 5px 2px;
 }
-/* .grid-menu-cv:hover{ */
-    /* border: solid 1px; */
-    /* padding: 15px; */
-/* } */
-/* grid-middle */
 .grid-middle{
     display: grid;
     grid-template-columns: repeat(5,1fr);
@@ -167,7 +159,6 @@ input[type="submit"]{
 }
 /* cv class btn */
 .middle-2{
-    /* background: #000; */
     border-bottom: solid 2px ;
     grid-column-start: 2;
     grid-column-end: 5;
@@ -239,3 +230,4 @@ footer{
     font-weight: 50px;
     text-transform: uppercase;
 }
+/* ===============animation=========== */
