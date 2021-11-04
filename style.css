@@ -1,0 +1,51 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* ----------------------slid---------------------- */
+.slide-right{ 
+    background: url(img/p1.jpg);
+    background-size: cover;
+    height: 70vh;
+}
+/* ===================container-lesson====================== */
+#below-lesson-clipath{ 
+    clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+    background:rgb(0, 255, 0);
+    width: 80%;
+    padding: 20px;
+}
+/* ---------feature--------------- */
+#feature i{ 
+    padding: 15px;
+    font-size: 2rem;
+    border: solid white;
+    border-radius: 5rem;
+}
+#clipath-feature{ 
+    clip-path: polygon(8% 0, 100% 0%, 100% 100%, 0% 100%);
+    background: rgb(5, 220, 248);
+    padding: 20px;
+    margin-left: 20rem;
+}
+/* ---------------------------------- */
+/* --------------img---------------- */
+
+/* ------------------------MODULE-------------------------- */
+#module .border-module{
+    border-bottom: solid 3px rgb(163, 162, 162);
+    display:inline-block;
+}
+/* --------------img-ceo--------------------- */
+#img-ceo .img-left{
+    width: 15rem;
+    padding: 10rem;
+    background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+}
+#img-ceo .img-right{
+    width: 15rem;
+    height: 20rem;
+}
+/* ----------------gif------------- */
