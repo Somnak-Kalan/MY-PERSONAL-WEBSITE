@@ -3,6 +3,31 @@ body{
     margin: 0;
     font-family: sans-serif;
 }
+nav #logo {
+    position: relative;
+    font-size: 1.5rem;
+    -webkit-box-reflect: below -42px linear-gradient (transparent,#0000);
+}
+nav #logo a span{
+    animation: animate 5s linear infinite;
+}
+@keyframes animate{
+    0%, 18%,20%,50%,1%,60%,65.1%,80%,90%,92%
+    {
+        color: #ffffff;
+        text-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,50.1%,65%,80.1%,90.1%,100%
+    {
+        color: rgb(25, 0, 255);
+        text-shadow: 0 0 10px #000000,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 00px #03bcf4,
+        0 0 160px #03bcf4,
+        0 0 400px #03bcf4,
+    }
+}
 
 /* ----------------------slid---------------------- */
 .slide-right{ 
@@ -16,19 +41,48 @@ body{
     background:rgb(0, 255, 0);
     width: 80%;
     padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#lesson .card{
+    margin: 5px;
+    height: 22rem;
+    /* max-width: 100px; */
+    border: solid 2px;
+    border-radius: 1rem;
+    backdrop-filter: blur(1rem);
+    border-top-color: rgba(225, 225, 225, 225);
+    border-left-color: rgba(225, 225, 225, 225);
+    border-right-color: rgba(225, 225, 225, 225);
+    border-bottom-color: rgba(225, 225, 225, 225);
+    background: rgba(255, 253, 253, 0.678);
+    box-shadow: rgba(17, 17, 26, 0.287) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+#lesson .welcome{
+    min-width: 47%;
+    max-width: 100%;
+   
 }
 /* ---------feature--------------- */
 #feature i{ 
     padding: 15px;
     font-size: 2rem;
-    border: solid white;
+    border: solid rgb(0, 0, 0);
     border-radius: 5rem;
 }
 #clipath-feature{ 
     clip-path: polygon(8% 0, 100% 0%, 100% 100%, 0% 100%);
-    background: rgb(5, 220, 248);
+    background: rgba(248, 5, 5, 0.651);
     padding: 20px;
     margin-left: 20rem;
+    margin-top: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+#feature .bg-feature{ 
+    padding:5rem;
+    border-radius: 5px;
+    background: rgb(248, 248, 248);
+    box-shadow: rgba(17, 17, 26, 0.1) 5px 6px 5px, rgba(17, 17, 26, 0.1) 5px 8px 24px, rgba(17, 17, 26, 0.1) 6px 16px 48px;
 }
 /* ---------------------------------- */
 /* --------------img---------------- */
@@ -49,3 +103,11 @@ body{
     height: 20rem;
 }
 /* ----------------gif------------- */
+/* footer */
+#icon-footer #icon{
+    box-shadow: rgba(0, 0, 0, 0.24) 10px 10px 10px 10px;
+}
+#icon-footer #icon img{
+    width: 5%;
+    padding: 10px;
+}
